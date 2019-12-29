@@ -1,0 +1,36 @@
+﻿@model List<User>
+
+@{ViewBag.Title = "Bilgiler";}
+
+
+
+
+<div class="panel panel-default">
+    <div class="panel panel-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Plaka</th>
+                    <th>TC Kimlik No</th>
+                    <th>Ruhsat Seri Kodu</th>
+                    <th>Ruhsat Seri No</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (User item in Model)
+                {
+                    <tr>
+                        <td>@item.Plate</td>
+                        <td>@item.Identity</td>
+                        <td>@item.LicenseSerialCode</td>
+                        <td>@item.LicenseSerialNumber</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+@Html.ActionLink("Teklif çalış", "UserAdd", null, new { @class = "btn btn-primary" })
+
+

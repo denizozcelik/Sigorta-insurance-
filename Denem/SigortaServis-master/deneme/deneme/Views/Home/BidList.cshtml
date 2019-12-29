@@ -1,0 +1,40 @@
+﻿@using deneme.Models.Response
+
+@model List<OfferCalculateViewModel>
+
+@{ViewBag.Title = "Teklifler";}
+
+
+<div class="panel panel-default">
+    <div class="panel panel-body">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Firma Adı</th>
+                    <th>Firma Logosu</th>
+                    <th>Teklif Tutarı</th>
+                    <th>Teklif Açıklaması</th>
+                    <th>Plaka</th>
+                    <th>UserID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CompanyName</td>
+                        <td>@item.CompanyLogoPath</td>
+                        <td>@item.OfferAmount</td>
+                        <td>@item.Explanation</td>
+                        <td>@item.Plate</td>
+                        <td>@item.UserId</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+
