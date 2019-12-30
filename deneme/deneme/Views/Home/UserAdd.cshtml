@@ -1,0 +1,74 @@
+﻿@using deneme.Models.Request
+
+@model OfferCalculateRequest
+@{
+    ViewBag.Title = "Kullanıcı EKLE";
+}
+<link href="~/Content/css/themes/base/jquery.ui.all.css" rel="stylesheet" />
+
+<script src="~/Content/js/jquery-1.4.2.js"></script>
+<script src="~/Content/js/jquery-ui-1.8.2.custom.js"></script>
+
+<style>
+    .field-validation-error {
+        color: red;
+    }
+</style>
+
+
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Yeni Üye Kayıt</div>
+        <div class="panel panel-body">
+            @using (Html.BeginForm("UserAdd", "Home", FormMethod.Post))
+            {   
+                <div class="col-md-6">
+                    
+                    <div>
+                        Plaka
+                    </div>
+                    <div>
+                        @Html.TextBoxFor(x => x.Plate, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.Plate) <br /><br /><br />
+                    </div>
+
+                    <div>
+                        TC Kimlik No
+                    </div>
+                    <div>
+                        @Html.TextAreaFor(x => x.TCNo, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.TCNo)<br /><br /><br />
+                    </div>
+
+                    <div>
+                        Ruhsat Seri Kod
+                    </div>
+                    <div>
+                        @Html.TextAreaFor(x => x.LicenceCode, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.LicenceCode)<br /><br /><br />
+                    </div>
+
+                    <div>
+                        Ruhsat Seri No
+                    </div>
+                    <div>
+                        @Html.TextBoxFor(x => x.LicenceNumber, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.LicenceNumber) <br /><br /><br />
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary">
+                            Kayıt Ol
+                        </button>
+                    </div>
+                </div>
+
+
+
+            }
+
+
+
+        </div>
+    </div>
+
+</div>
