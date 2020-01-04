@@ -1,2 +1,2 @@
 # SigortaServis
- c# , Mvc , Ntier , Code First , Web Api , web Service 
+C# , Mvc , Ntier , Code First , Web Api , Mssql DB
