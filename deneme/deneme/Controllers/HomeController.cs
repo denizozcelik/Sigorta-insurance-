@@ -98,5 +98,16 @@ namespace deneme.Controllers
         {
             return View(ResponseData);
         }
+
+
+        [HttpGet]
+        public ActionResult GetOffersByIdentity()
+        {
+            return View();
+        }
+
+
+
+
     }
 }

@@ -40,3 +40,17 @@ C:\Users\mahmut\Desktop\SigortaServis-master\deneme\web.MAP\bin\Debug\web.MODEL.
 C:\Users\mahmut\Desktop\SigortaServis-master\deneme\web.MAP\bin\Debug\EntityFramework.xml
 C:\Users\mahmut\Desktop\SigortaServis-master\deneme\web.MAP\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mahmut\Desktop\SigortaServis-master\deneme\web.MAP\obj\Debug\web.MAP.csproj.CopyComplete
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MAP.dll.config
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MAP.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MAP.pdb
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\EntityFramework.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MODEL.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MODEL.pdb
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\web.MODEL.dll.config
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\EntityFramework.xml
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\obj\Debug\web.MAP.csprojAssemblyReference.cache
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\obj\Debug\web.MAP.csproj.CopyComplete
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\obj\Debug\web.MAP.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MAP\obj\Debug\web.MAP.pdb

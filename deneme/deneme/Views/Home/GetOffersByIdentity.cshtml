@@ -1,0 +1,61 @@
+﻿@using deneme.Models.Request
+@using deneme.Models.Response
+@model List<OfferCalculateViewModel>
+@{
+    ViewBag.Title = "GetOffersByIdentity";
+}
+
+<link href="~/Content/css/themes/base/jquery.ui.all.css" rel="stylesheet" />
+
+<script src="~/Content/js/jquery-1.4.2.js"></script>
+<script src="~/Content/js/jquery-ui-1.8.2.custom.js"></script>
+
+<style>
+
+    .field-validation-error {
+        color: red;
+    }
+</style>
+<h2>TCKN Bazlı Teklif Arama</h2>
+
+<div class="panel panel-default">
+    <div class="panel panel-body">
+        @using (Html.BeginForm("GetOffersByIdentity", "Home", FormMethod.Post))
+        {
+            <div>
+                TC Kimlik No
+            </div>
+            <div>
+                @Html.TextAreaFor(x => x.TCNo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.TCNo)<br /><br /><br />
+            </div>
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Firma Adı</th>
+                        <th>Firma Logosu</th>
+                        <th>Teklif Tutarı</th>
+                        <th>Teklif Açıklaması</th>
+                        <th>Plaka</th>
+                        <th>UserID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (OfferCalculateViewModel item in Model)
+                    {
+                        <tr>
+                            <td>@item.CompanyName</td>
+                            <td>@item.CompanyLogoPath</td>
+                            <td>@item.OfferAmount</td>
+                            <td>@item.Explanation</td>
+                            <td>@item.Plate</td>
+                            <td>@item.UserId</td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
