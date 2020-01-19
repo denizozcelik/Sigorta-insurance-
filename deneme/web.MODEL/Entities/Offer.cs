@@ -32,5 +32,7 @@ namespace web.MODEL.Entities
 
         public int UserID { get; set; }
 
+        public virtual User User { get; set; }
+
     }
 }

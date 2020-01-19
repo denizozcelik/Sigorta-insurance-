@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using web.MAP.Options;
 using web.MODEL.Entities;
+using web.Tools.Tools;
 
 namespace web.DAL.Context
 {
@@ -14,6 +15,7 @@ namespace web.DAL.Context
         public MyDBContext() : base("SigortaDB")
         {
             Configuration.ValidateOnSaveEnabled = true;
+            Database.SetInitializer(new MyInitializer<MyDBContext>());
             Database.SetInitializer<MyDBContext>(new CreateDatabaseIfNotExists<MyDBContext>());
             Database.SetInitializer<MyDBContext>(new DropCreateDatabaseIfModelChanges<MyDBContext>());
 
@@ -27,8 +29,8 @@ namespace web.DAL.Context
             modelBuilder.Configurations.Add(new CompanyMap());
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Offer> Offers { get; set; }
-        public DbSet<Company> Companies { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Offer> Offers { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
     }
 }

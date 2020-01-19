@@ -33,13 +33,11 @@ namespace web.BLL.RepositoryPattern.RepositoryBase
                 var outputLines = new StringBuilder();
                 foreach (var eve in dbValEx.EntityValidationErrors)
                 {
-                    outputLines.AppendFormat("{0}: Entity of type '{ 1}' in state '{ 2}' has the following validation errors:"
-                      , DateTime.Now, eve.Entry.Entity.GetType().Name, eve.Entry);
+                    outputLines.AppendFormat("{0}: Entity of type '{ 1}' in state '{ 2}' has the following validation errors:", DateTime.Now, eve.Entry.Entity.GetType().Name, eve.Entry);
 
                     foreach (var ve in eve.ValidationErrors)
                     {
-                        outputLines.AppendFormat("- Property: '{ 0}', Error: '{ 1}'"
-                         , ve.PropertyName, ve.ErrorMessage);
+                        outputLines.AppendFormat("- Property: '{ 0}', Error: '{ 1}'", ve.PropertyName, ve.ErrorMessage);
                     }
                 }
 

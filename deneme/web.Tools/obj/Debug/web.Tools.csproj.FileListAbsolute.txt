@@ -1,0 +1,14 @@
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.Tools.dll.config
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.Tools.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.Tools.pdb
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\EntityFramework.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.MODEL.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.MODEL.pdb
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\web.MODEL.dll.config
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\EntityFramework.xml
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\obj\Debug\web.Tools.csprojAssemblyReference.cache
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\obj\Debug\web.Tools.csproj.CopyComplete
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\obj\Debug\web.Tools.dll
+C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.Tools\obj\Debug\web.Tools.pdb

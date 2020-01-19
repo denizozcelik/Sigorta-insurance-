@@ -34,6 +34,6 @@ namespace web.MODEL.Entities
         [Display(Name = "Ruhsat Seri No")]
         public string LicenseSerialNumber { get; set; }
 
-        public List<Offer> Offers { get; set; }
+        public virtual List<Offer> Offers { get; set; }
     }
 }

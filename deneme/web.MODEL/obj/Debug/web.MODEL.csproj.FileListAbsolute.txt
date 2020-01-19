@@ -37,7 +37,6 @@ C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\bin\Debug
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\bin\Debug\EntityFramework.xml
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\obj\Debug\web.MODEL.csprojAssemblyReference.cache
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\obj\Debug\web.MODEL.csproj.CopyComplete
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\obj\Debug\web.MODEL.dll
 C:\Users\Jaximus\Desktop\GithupProjects\Deneme\Deneme\deneme\web.MODEL\obj\Debug\web.MODEL.pdb

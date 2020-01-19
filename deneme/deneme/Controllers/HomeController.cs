@@ -100,11 +100,7 @@ namespace deneme.Controllers
         }
 
 
-        [HttpGet]
-        public ActionResult GetOffersByIdentity()
-        {
-            return View();
-        }
+        
 
 
 

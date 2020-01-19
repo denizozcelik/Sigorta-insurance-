@@ -68,6 +68,10 @@
       <Project>{cf0acfb7-dc8c-48ca-ad9e-f238bbed30e1}</Project>
       <Name>web.MODEL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\web.Tools\web.Tools.csproj">
+      <Project>{0195188D-3E6B-4CA5-B518-A1A7A9E010F5}</Project>
+      <Name>web.Tools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -11,7 +11,8 @@ namespace web.MAP.Options
     {
         public CompanyMap()
         {
-            Property(x => x.CompanyName).HasColumnName("FIRMAADI").IsRequired();
+            ToTable("SIRKETLER");
+            Property(x => x.CompanyName).HasColumnName("FIRMAADI");
         }
     }
 }
